@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "Don't Edit Jira!",
+    "version": "0.1",
+    "description": "Disable click edit in Jira issue descriptions",
+    "permissions": [
+      "activeTab"
+    ],
+    "content_scripts": [
+      {
+        "matches": ["https://*.atlassian.net/browse/*"],
+        "js": ["contentScript.js"],
+        "run_at": "document_idle"
+      }
+    ]
+  }
+  
