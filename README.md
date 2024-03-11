@@ -1,4 +1,6 @@
-# Don't Edit Jira!
+# Don't Edit Jira
+
+Fixing that most annoying of Jira "features".
 
 ## Description
 
